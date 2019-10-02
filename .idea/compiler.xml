@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lanhai-bean" />
+        <module name="lanhai-common-util" />
+        <module name="lanhai-interface" />
+        <module name="lanhai-service-util" />
+        <module name="lanhai-usermange" />
+        <module name="lanhai-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lanhai-bean" target="1.8" />
+      <module name="lanhai-common-util" target="1.8" />
+      <module name="lanhai-interface" target="1.8" />
+      <module name="lanhai-parent" target="1.8" />
+      <module name="lanhai-service-util" target="1.8" />
+      <module name="lanhai-usermange" target="1.8" />
+      <module name="lanhai-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
