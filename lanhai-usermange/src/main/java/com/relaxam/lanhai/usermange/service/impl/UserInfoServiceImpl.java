@@ -59,7 +59,7 @@ public class UserInfoServiceImpl implements UserInfoService{
 
 
     @Override
-    public List<UserAddress> queryUserAddessByUserId(String userId) {
+    public List<UserAddress> getUserAddressList(String userId) {
         UserAddress userAddress = new UserAddress();
         userAddress.setUserId(userId);
         List<UserAddress> userAddresseList = userAddressMapper.select(userAddress);

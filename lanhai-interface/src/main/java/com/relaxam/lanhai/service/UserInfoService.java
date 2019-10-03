@@ -21,6 +21,6 @@ public interface UserInfoService {
 
     boolean updateUserInfo(UserInfoDTO userInfoDTO);
 
-    List<UserAddress> queryUserAddessByUserId(String userId);
+    List<UserAddress> getUserAddressList(String userId);
 
 }

@@ -20,10 +20,10 @@ public class OrderController {
     @Reference
     private UserInfoService userInfoService;
 
-    @RequestMapping("getAddress")
+    @RequestMapping("trade")
     @ResponseBody
-    public List<UserAddress> getAddress(String userId){
-        List<UserAddress> userAddresses = userInfoService.queryUserAddessByUserId(userId);
+    public List<UserAddress> getUserAddress(String userId){
+        List<UserAddress> userAddresses = userInfoService.getUserAddressList(userId);
         return userAddresses;
     }
 
