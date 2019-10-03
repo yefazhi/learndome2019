@@ -1,6 +1,8 @@
 package com.relaxam.lanhai.service;
 
+import com.relaxam.lanhai.bean.UserAddress;
 import com.relaxam.lanhai.bean.UserInfo;
+import com.relaxam.lanhai.transfer.UserInfoDTO;
 
 import java.util.List;
 
@@ -12,5 +14,13 @@ import java.util.List;
 public interface UserInfoService {
 
     List<UserInfo> findAll();
+
+    boolean insertUser(UserInfoDTO userInfoDTO);
+
+    boolean deleteUser(UserInfoDTO userInfoDTO);
+
+    boolean updateUserInfo(UserInfoDTO userInfoDTO);
+
+    List<UserAddress> queryUserAddessByUserId(String userId);
 
 }

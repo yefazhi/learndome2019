@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@MapperScan("com.relaxam.lanhai.usermange.mapper")
+@MapperScan(basePackages ="com.relaxam.lanhai.usermange.mapper")
 public class LanhaiUsermangeApplication {
 	private static Logger logger = LoggerFactory.getLogger(LanhaiUsermangeApplication.class);
 

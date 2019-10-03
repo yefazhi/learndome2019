@@ -2,11 +2,11 @@ package com.relaxam.lanhai.usermange.controller;
 
 import com.relaxam.lanhai.bean.UserInfo;
 import com.relaxam.lanhai.service.UserInfoService;
+import com.relaxam.lanhai.transfer.UserInfoDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,6 +29,25 @@ public class UserInfoController {
     @ResponseBody
     public List<UserInfo> getAll(){
         return userInfoService.findAll();
+    }
+
+
+    @PostMapping("addUser")
+    @ResponseBody
+    public boolean addUser(@RequestParam UserInfoDTO userInfoDTO){
+        return userInfoService.insertUser(userInfoDTO);
+    }
+
+    @PostMapping("deleteUser")
+    @ResponseBody
+    public boolean deleteUser(@RequestParam UserInfoDTO userInfoDTO){
+        return userInfoService.deleteUser(userInfoDTO);
+    }
+
+    @PostMapping("updateUserInfo")
+    @ResponseBody
+    public boolean updateUserInfo(@RequestParam UserInfoDTO userInfoDTO){
+        return userInfoService.updateUserInfo(userInfoDTO);
     }
 
 }

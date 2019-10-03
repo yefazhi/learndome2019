@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/lanhai-parent/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-bean/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-usermange/pom.xml" />
+        <option value="$PROJECT_DIR$/lanhai-order-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
