@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54200f5-725d-42f8-8ca1-db2d1accdf26" name="Default" comment="" />
+    <list default="true" id="c54200f5-725d-42f8-8ca1-db2d1accdf26" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-bean/target/lanhai-bean-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/lanhai-bean/target/lanhai-bean-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-interface/target/classes/com/relaxam/lanhai/service/UserInfoService.class" afterPath="$PROJECT_DIR$/lanhai-interface/target/classes/com/relaxam/lanhai/service/UserInfoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-interface/target/lanhai-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/lanhai-interface/target/lanhai-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-web-util/target/lanhai-web-util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/lanhai-web-util/target/lanhai-web-util-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-parent/pom.xml" afterPath="$PROJECT_DIR$/lanhai-parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-web-util/lanhai-web-util.iml" afterPath="$PROJECT_DIR$/lanhai-web-util/lanhai-web-util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lanhai-web-util/pom.xml" afterPath="$PROJECT_DIR$/lanhai-web-util/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/lanhai-parent/target/" />
     <ignored path="$PROJECT_DIR$/lanhai-bean/target/" />
     <ignored path="$PROJECT_DIR$/lanhai-interface/target/" />
@@ -11,6 +24,8 @@
     <ignored path="$PROJECT_DIR$/lanhai-web-util/target/" />
     <ignored path="$PROJECT_DIR$/lanhai-usermange/target/" />
     <ignored path="$PROJECT_DIR$/lanhai-order-web/target/" />
+    <ignored path="$PROJECT_DIR$/lanhai-manage-web/target/" />
+    <ignored path="$PROJECT_DIR$/lanhai-manage-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,31 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/resources/application.properties">
+      <file leaf-file-name="ManageServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/service/impl/ManageServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LanhaiUsermangeApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/LanhaiUsermangeApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="117">
+              <caret line="83" column="54" lean-forward="true" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,46 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserInfoServiceImpl.java">
+      <file leaf-file-name="ManageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/ManageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LanhaiOrderWebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/LanhaiOrderWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state relative-caret-position="525">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/resources/application.properties">
+      <file leaf-file-name="AttrManageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/controller/AttrManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="324">
+              <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +85,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,6 +97,7 @@
       <find>Service</find>
       <find>com.gitee.reger</find>
       <find>Reference</find>
+      <find>添加</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,13 +111,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserInfo.java" />
-        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserAddress.java" />
-        <option value="$PROJECT_DIR$/lanhai-bean/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-interface/pom.xml" />
         <option value="$PROJECT_DIR$/lanhaicommonutil/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/lanhai-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/mapper/UserInfoMapper.java" />
         <option value="$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.2/mapper-3.5.2.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.class" />
         <option value="$PROJECT_DIR$/lanhai-order-web/pom.xml" />
@@ -153,7 +124,6 @@
         <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/mapper/UserAddressMapper.java" />
         <option value="$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/service/impl/UserAddressServiceImpl.java" />
         <option value="$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserAddressService.java" />
-        <option value="$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserAddressServiceImpl.java" />
         <option value="$PROJECT_DIR$/lanhai-usermange/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/lanhai-order-web/src/main/resources/application.properties" />
@@ -161,11 +131,37 @@
         <option value="$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/config/annotation/Service.class" />
         <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/lanhai-usermange/pom.xml" />
-        <option value="$PROJECT_DIR$/lanhai-parent/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-common-util/pom.xml" />
-        <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/LanhaiOrderWebApplication.java" />
         <option value="$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/LanhaiManageWebApplication.java" />
+        <option value="$PROJECT_DIR$/lanhai-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/lanhai-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/ManageController.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog1Mapper.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog3Mapper.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog2Mapper.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseAttrInfoMapper.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/LanhaiManageServiceApplication.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/controller/ManageController.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/resources/templates/attrListPage.html" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseAttrValueMapper.java" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseAttrInfo.java" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseAttrValue.java" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog1.java" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog2.java" />
+        <option value="$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog3.java" />
+        <option value="$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/ManageService.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/service/impl/ManageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/controller/AttrManageController.java" />
       </list>
     </option>
   </component>
@@ -195,22 +191,35 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lanhai-order-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lanhai-manage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lanhai-order-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lanhai-manage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lanhai-manage-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lanhai-manage-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lanhai-web-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="1911" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -303,7 +312,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,7 +323,352 @@
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-common-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
+              <item name="lanhai-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
@@ -399,182 +753,44 @@
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-order-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
-              <item name="usermange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
-              <item name="usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndome2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai-usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relaxam" type="462c0819:PsiDirectoryNode" />
-              <item name="lanhai" type="462c0819:PsiDirectoryNode" />
-              <item name="usermange" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: javax.persistence:persistence-api:1.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.persistence:persistence-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="persistence-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.persistence:persistence-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="persistence-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learndome2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:dubbo:2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: javax.persistence:persistence-api:1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="persistence-api-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -584,7 +800,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Java资料/Java学习资料/最初了解/视频/孟庆祥/03 后台管理spu-图片上传/04 代码/gmall0416" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -593,10 +809,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="SearchEverywhereHistoryKey" value="LanhaiOrderWebApplicationTests&#9;PSI&#9;JAVA://com.relaxam.lanhai.order.LanhaiOrderWebApplicationTests" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.relaxam.lanhai.manage.mapper" />
+      <recent name="com.relaxam.lanhai.bean" />
       <recent name="com.relaxam.lanhai.transfer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TONGDUN\learndome2019\lanhai-manage-web\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -611,7 +833,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LanhaiOrderWebApplication">
+  <component name="RunManager" selected="Spring Boot.LanhaiManageWebApplication">
+    <configuration name="LanhaiManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.relaxam.lanhai.manage.LanhaiManageServiceApplication" />
+      <module name="lanhai-manage-service" />
+      <envs />
+    </configuration>
+    <configuration name="LanhaiManageWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.relaxam.lanhai.manage.LanhaiManageWebApplication" />
+      <module name="lanhai-manage-web" />
+      <envs />
+    </configuration>
     <configuration name="LanhaiOrderWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.relaxam.lanhai.order.LanhaiOrderWebApplication" />
@@ -755,16 +989,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learndome2019/lanhai-manage-web/templates/index.html" />
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.LanhaiUsermangeApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.LanhaiOrderWebApplication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LanhaiUsermangeApplicationTests" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LanhaiOrderWebApplicationTests" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.LanhaiManageWebApplication" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LanhaiUsermangeApplicationTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LanhaiOrderWebApplicationTests" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.LanhaiManageServiceApplication" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LanhaiOrderWebApplicationTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LanhaiUsermangeApplicationTests" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LanhaiOrderWebApplicationTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LanhaiUsermangeApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -788,7 +1027,8 @@
       <workItem from="1569986878551" duration="5085000" />
       <workItem from="1569997720807" duration="10343000" />
       <workItem from="1570016813747" duration="5795000" />
-      <workItem from="1570077579500" duration="8398000" />
+      <workItem from="1570077579500" duration="14098000" />
+      <workItem from="1570161727720" duration="12446000" />
     </task>
     <servers />
   </component>
@@ -804,31 +1044,30 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29621000" />
+    <option name="totallyTimeSpent" value="47767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41257143" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25643778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4822857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6822857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21137339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27736053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29485714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39661017" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,207 +1091,11 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/transfer/UserInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/LanhaiOrderWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/mapper/UserAddressMapper.java" />
-    <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserAddressService.java" />
-    <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserAddressServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-parent/lanhai-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/lanhai-bean.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="88" lean-forward="true" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-parent/lanhai-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhaicommonutil/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-web-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.2/mapper-3.5.2.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/transfer/UserAddressDTO.java" />
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/transfer/UserInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/UserAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_162/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3509" column="0" lean-forward="false" selection-start-line="3509" selection-start-column="0" selection-end-line="3509" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/mapper/UserAddressMapper.java" />
     <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserAddressService.java" />
     <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserAddressServiceImpl.java" />
@@ -1060,15 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,9 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,19 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,54 +1190,358 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/LanhaiUsermangeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/LanhaiOrderWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/service/impl/UserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="455">
+          <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-web-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-order-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/ManageController.java" />
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-usermange/src/main/java/com/relaxam/lanhai/usermange/LanhaiUsermangeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/LanhaiOrderWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="267" column="6" lean-forward="false" selection-start-line="267" selection-start-column="6" selection-end-line="267" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog2Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog1Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseCatalog3Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseAttrInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/LanhaiManageServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/LanhaiManageWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lanhai-order-web/src/main/java/com/relaxam/lanhai/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="291">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/controller/ManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/resources/templates/attrListPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2910">
+          <caret line="102" column="2" lean-forward="false" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/GenerationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/mapper/BaseAttrValueMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseAttrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-bean/src/main/java/com/relaxam/lanhai/bean/BaseCatalog3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-interface/src/main/java/com/relaxam/lanhai/service/ManageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-web/src/main/java/com/relaxam/lanhai/manage/controller/AttrManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lanhai-manage-service/src/main/java/com/relaxam/lanhai/manage/service/impl/ManageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="83" column="54" lean-forward="true" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1289,7 +1611,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lanhai-usermange</last-edited>
+          <last-edited>lanhai-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

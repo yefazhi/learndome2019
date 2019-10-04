@@ -4,11 +4,12 @@
     <file url="file://$PROJECT_DIR$/lanhai-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lanhai-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lanhai-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-service-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-usermange" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lanhai-web-util" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lanhaicommonutil" charset="UTF-8" />
   </component>
 </project>

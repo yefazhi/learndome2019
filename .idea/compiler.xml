@@ -9,6 +9,8 @@
         <module name="lanhai-bean" />
         <module name="lanhai-common-util" />
         <module name="lanhai-interface" />
+        <module name="lanhai-manage-service" />
+        <module name="lanhai-manage-web" />
         <module name="lanhai-order-web" />
         <module name="lanhai-service-util" />
         <module name="lanhai-usermange" />
@@ -19,6 +21,8 @@
       <module name="lanhai-bean" target="1.8" />
       <module name="lanhai-common-util" target="1.8" />
       <module name="lanhai-interface" target="1.8" />
+      <module name="lanhai-manage-service" target="1.8" />
+      <module name="lanhai-manage-web" target="1.8" />
       <module name="lanhai-order-web" target="1.8" />
       <module name="lanhai-parent" target="1.8" />
       <module name="lanhai-service-util" target="1.8" />

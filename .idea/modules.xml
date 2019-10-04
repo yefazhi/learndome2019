@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/lanhai-bean/lanhai-bean.iml" filepath="$PROJECT_DIR$/lanhai-bean/lanhai-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanhai-common-util/lanhai-common-util.iml" filepath="$PROJECT_DIR$/lanhai-common-util/lanhai-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanhai-interface/lanhai-interface.iml" filepath="$PROJECT_DIR$/lanhai-interface/lanhai-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanhai-manage-service/lanhai-manage-service.iml" filepath="$PROJECT_DIR$/lanhai-manage-service/lanhai-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanhai-manage-web/lanhai-manage-web.iml" filepath="$PROJECT_DIR$/lanhai-manage-web/lanhai-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanhai-order-web/lanhai-order-web.iml" filepath="$PROJECT_DIR$/lanhai-order-web/lanhai-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanhai-parent/lanhai-parent.iml" filepath="$PROJECT_DIR$/lanhai-parent/lanhai-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanhai-service-util/lanhai-service-util.iml" filepath="$PROJECT_DIR$/lanhai-service-util/lanhai-service-util.iml" />
