@@ -1,9 +1,6 @@
 package com.relaxam.lanhai.service;
 
-import com.relaxam.lanhai.bean.BaseAttrInfo;
-import com.relaxam.lanhai.bean.BaseCatalog1;
-import com.relaxam.lanhai.bean.BaseCatalog2;
-import com.relaxam.lanhai.bean.BaseCatalog3;
+import com.relaxam.lanhai.bean.*;
 
 import java.util.List;
 
@@ -24,5 +21,11 @@ public interface ManageService {
 
     public void saveAttrInfo(BaseAttrInfo baseAttrInfo);
 
-    BaseAttrInfo getAttrInfo(String attrId);
+    public BaseAttrInfo getAttrInfo(String attrId);
+
+    /**
+     * 获取spuInfo实例集合
+     * @return
+     */
+    public List<SpuInfo> getSpuInfoList(SpuInfo spuInfo);
 }

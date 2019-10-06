@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs-client-java" />
         <module name="lanhai-bean" />
         <module name="lanhai-common-util" />
         <module name="lanhai-interface" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.6" />
       <module name="lanhai-bean" target="1.8" />
       <module name="lanhai-common-util" target="1.8" />
       <module name="lanhai-interface" target="1.8" />

@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/lanhai-order-web/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-manage-web/pom.xml" />
         <option value="$PROJECT_DIR$/lanhai-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs-client-java/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
